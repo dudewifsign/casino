@@ -120,9 +120,9 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>Welcome to Catzino 👋</h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          From pump.fun to a global memecoin decentralized casino.
         </p>
       </div>
       <Buttons>
@@ -132,8 +132,8 @@ export function WelcomeBanner() {
         <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
           🚀 Add Liquidity
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://x.com/catzinosolana', '_blank')}>
+          💬 Follow us
         </button>
       </Buttons>
     </Welcome>
